@@ -1,0 +1,13 @@
+#buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.container1 {
+    /* margin-top: 60px; */
+    max-width: 700px;
+    margin: 60px auto;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 20px;
+}

@@ -1,0 +1,22 @@
+body {
+    position: relative;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid black;
+
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
