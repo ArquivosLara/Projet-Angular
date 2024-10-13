@@ -1,0 +1,32 @@
+nav {
+    backdrop-filter: blur(2px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.603);
+}
+
+.branco {
+    color: aliceblue;
+}
+
+.brancob {
+    background-color: aliceblue;
+}
+
+.home {
+    position: relative;
+}
+
+.home::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to right, rgb(80, 12, 162), rgb(145, 6, 160));
+    border-radius: 2px;
+    width: 0%;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    transition: width 0.4s ease
+}
+
+.home:hover::after {
+    width: 100%;
+}

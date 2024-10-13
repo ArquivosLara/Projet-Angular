@@ -1,9 +1,10 @@
 form {
-    border: 2px solid black;
+    border: 1px solid rgba(255, 255, 255, 0.603);
     border-radius: 24px;
     max-width: 700px;
     padding: 20px;
     margin: 60px auto;
+    backdrop-filter: blur(2px);
 }
 
 h2 {
@@ -12,4 +13,17 @@ h2 {
 
 .form-group {
     margin: 10px 0;
+}
+
+h2,label {
+    color: aliceblue;
+}
+
+input {
+    background-color: transparent;
+    color: aliceblue;
+}
+
+input::placeholder {
+    color: aliceblue;
 }
